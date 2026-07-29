@@ -1,0 +1,13 @@
+###
+GET http://localhost:8080/request-header
+
+###
+GET http://localhost:8080/request-header?
+    username=kim &
+    hi=true
+
+###
+POST http://localhost:8080/request-header
+Content-Type: text/plain
+
+hi
