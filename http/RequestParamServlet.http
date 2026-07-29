@@ -10,3 +10,11 @@ GET http://localhost:8080/request-param?
     username=hello&
     username=kim&
     age=20
+
+###
+# POST HTML FORM
+POST http://localhost:8080/request-param
+Content-Type: application/x-www-form-urlencoded
+
+username = hello &
+age = 20
