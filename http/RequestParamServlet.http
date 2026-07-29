@@ -1,0 +1,12 @@
+###
+# 1. 파라미터 전송 기능
+GET http://localhost:8080/request-param?
+    username=hello &
+    age=12
+
+###
+# 2. 동일한 파라미터 전송 가능
+GET http://localhost:8080/request-param?
+    username=hello&
+    username=kim&
+    age=20
