@@ -1,2 +1,5 @@
 ###
 GET http://localhost:8080//springmvc/request-handler
+
+###
+GET http://localhost:8080/springmvc/old-controller
