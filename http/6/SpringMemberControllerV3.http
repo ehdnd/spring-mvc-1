@@ -1,0 +1,5 @@
+###
+GET http://localhost:8080/springmvc/v3/members/new-form
+
+###
+POST http://localhost:8080/springmvc/v3/members/new-form
